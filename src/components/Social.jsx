@@ -6,11 +6,11 @@ const Social = () => {
   return (
     <div  className="grid grid-rows-2 gap-y-8 col-span-2">
         <Link rel="stylesheet" to="linkedIn" >
-            <RiLinkedinLine size={30} className='text-title-color hover:text-title-color-dark'/>
+            <RiLinkedinLine size={26} className='text-title-color hover:text-title-color-dark'/>
         </Link>
 
         <Link rel="stylesheet" to="github">
-            <RiGithubLine size={30} className='text-title-color hover:text-title-color-dark'/>
+            <RiGithubLine size={26} className='text-title-color hover:text-title-color-dark'/>
         </Link>
     </div>
   )

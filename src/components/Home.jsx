@@ -13,13 +13,21 @@ const Home = () => {
                     <div className='bg-profile-pic col-span-4 w-[250px] h-[250px] bg-cover bg-left-bottom animate-profile_animate rounded-full  shadow-profile-pic'></div>
                 </div>
 
-                <div className='md:hidden grid grid-cols-6 grid-rows-2 pt-20 gap-x-4 items-center gap-y-16'>
+                {/* <div className='md:hidden grid grid-cols-6 grid-rows-2 pt-20 gap-x-4 items-center gap-y-16'>
 
                     <Social/>
                     <div className='bg-profile-pic w-[180px] h-[180px] bg-cover bg-left-bottom animate-profile_animate rounded-full  shadow-profile-pic'></div>
 
                     <Data className="text-center"/>
                     
+                </div> */}
+
+                <div className='md:hidden mt-16 flex flex-col justify-start items-center gap-y-12'>
+                  <div className='flex flex-row items-center justify-start gap-x-12'>
+                    <Social/>
+                    <div className='bg-profile-pic w-[180px] h-[180px] bg-cover bg-left-bottom animate-profile_animate rounded-full  shadow-profile-pic'></div>
+                  </div>
+                  <Data className="text-center"/>
                 </div>
                 
                 <ScrollDown/>
