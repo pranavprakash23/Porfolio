@@ -4,8 +4,11 @@ import { RiFileList3Line, RiAwardLine } from "react-icons/ri";
 const About = () => {
   return (
     <div className='h-screen mt-24 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
-        <h1 className='text-4xl font-medium text-title-color'>About Me</h1>
-        <p className='text-sm'>My Introduction</p>
+        <div className='flex flex-col justify-center items-center'>
+            <h1 className='text-4xl font-medium text-title-color'>About Me</h1>
+            <p className='text-sm'>My Introduction</p>
+        </div>
+        
         <div className='flex flex-col md:flex-row mt-28 mx-auto gap-16 justify-center items-center'>
           <div className='bg-profile-pic col-span-4 w-[300px] h-[300px] md:w-[400px] md:h-[350px] bg-cover bg-left-bottom rounded-3xl'></div>
           <div className='flex flex-col gap-8 justify-center items-center'>
@@ -18,7 +21,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <p className='text-base font-sm w-[450px] text-text-color'>Experienced Full Stack Developer with 3.5 years of expertise in building dynamic, scalable web applications using
+              <p className='text-base font-sm w-[300px] md:w-[450px] text-text-color'>Experienced Full Stack Developer with 3.5 years of expertise in building dynamic, scalable web applications using
               modern frameworks like React, Angular JS, and Spring.</p>
               <button className='w-max p-4 bg-title-color rounded-2xl flex flex-row items-center gap-4 text-container-color'>
                 Download Resume <RiFileList3Line size={22}/>
