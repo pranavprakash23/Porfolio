@@ -3,13 +3,13 @@ import { RiFileList3Line, RiAwardLine } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className='h-screen mt-24 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
+    <div className='h-screen mt-36 md:mt-24 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-4xl font-medium text-title-color'>About Me</h1>
             <p className='text-sm'>My Introduction</p>
         </div>
         
-        <div className='flex flex-col md:flex-row mt-28 mx-auto gap-16 justify-center items-center'>
+        <div className='flex flex-col md:flex-row mt-20 mx-auto gap-16 justify-center items-center'>
           <div className='bg-profile-pic col-span-4 w-[300px] h-[300px] md:w-[400px] md:h-[350px] bg-cover bg-left-bottom rounded-3xl'></div>
           <div className='flex flex-col gap-8 justify-center items-center'>
               <div className='flex flex-row gap-4'>
