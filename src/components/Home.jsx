@@ -1,0 +1,47 @@
+import React from 'react'
+import Social from './Social'
+import Data from './Data'
+import ScrollDown from './ScrollDown'
+
+const Home = () => {
+  return (
+    // <main className='mt-24 h-screen'>
+    //     <section>
+            // <div className='grid max-w-[1300px] mx-auto gap-6 px-12'>
+            //     <div className='grid grid-cols-6 '>
+            //         <Social/>
+            //         <Data/>
+                   
+            //         <div className='bg-profile-pic col-span-2 w-[300px] h-[300px]bg-cover bg-center'></div>
+            //     </div>
+            // </div>
+    //     </section>
+    // </main>
+    
+
+    <div className='mt-24 px-4 md:px-12 w-full'>
+        <div className='grid max-w-[1300px] m-auto px-4 md:px-12 h-full gap-28 flex flex-cols w-full'>
+                <div className='hidden md:grid md:grid-cols-12 pt-20 gap-x-24 items-center'>
+                    <Social/>
+                    <Data/>
+                    <div className='bg-profile-pic col-span-4 w-[250px] h-[250px] bg-cover bg-left-bottom animate-profile_animate rounded-full  shadow-profile-pic'></div>
+                </div>
+
+                <div className='md:hidden grid grid-cols-6 grid-rows-2 pt-20 gap-x-4 items-center gap-y-16'>
+
+                    <Social/>
+                    <div className='bg-profile-pic w-[180px] h-[180px] bg-cover bg-left-bottom animate-profile_animate rounded-full  shadow-profile-pic'></div>
+
+                    <Data className="text-center"/>
+                    
+                </div>
+                
+                <ScrollDown/>
+        </div>
+    </div>
+  )
+}
+
+export default Home
+
+// 
