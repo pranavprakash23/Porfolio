@@ -24,7 +24,7 @@ export default {
         'profile-pic': '0 0 0 9px rgba(117, 117, 117, 100%)',
       },
       backgroundImage: {
-        'profile-pic': "url('./src/assets/profilepic.jpg')",
+        'profile-pic': "url('/src/assets/profilepic.jpg')",
       },
       keyframes: {
         profile_animate: {
