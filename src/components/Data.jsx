@@ -53,14 +53,13 @@ const Data = () => {
                     d="M46.2745 22.28C46.0495 21.83 45.7495 21.53 45.3745 21.23C45.4495 21.305 45.5245 21.38 45.5245 21.53C46.7995 24.08 42.6745 26.405 40.1995 29.405C38.1745 31.88 35.9245 33.83 34.7995 36.455C29.9995 47.93 16.0495 47.93 10.1995 42.68C15.5245 48.68 30.5245 49.28 35.5495 37.205C36.6745 34.58 38.9245 32.63 40.9495 30.155C43.4245 27.155 47.5495 24.755 46.2745 22.28ZM32.3245 28.13C27.4495 26.33 18.7495 29.63 19.9495 38.405C19.9495 30.23 27.3745 28.205 31.4245 28.205C32.0245 28.13 32.3245 28.13 32.3245 28.13Z"
                     fill="#EBA352"
                   ></path>
-                </svg>
-            
+                </svg>            
         </h1>
-        <h3 className="text-base md:text-xl pl-4 font-normal mb-4 before:content-['------'] text-title-color"> Fullstack Developer</h3>
-        <p className=' text-base md:text-xl max-w-[350px] md:max-w-[500px] mb-16'>I am passionate fullstack developer with over 3.5 years of experience.</p>
-        <a href="" className='flex flex-row justify-center items-center bg-title-color text-container-color rounded-md font-sm md:font-medium px-2 md:px-6 py-1 md:py-2 w-max h-max gap-2'>Say Hello
+        <h3 className="text-base md:text-xl pl-4 font-normal mb-4 before:content-['-----'] text-title-color"> Fullstack Developer</h3>
+        <p className='text-base md:text-xl max-w-[350px] md:max-w-[500px] mb-16'>I am passionate fullstack developer with over 3.5 years of experience.</p>
+        <a href="" className='flex flex-row justify-center items-center bg-title-color text-container-color rounded-md text-sm md:font-base px-2 md:px-4 py-1 md:py-2 w-max h-max gap-2'>Say Hello
         <svg
-                  className="w-[20px] h-[20px] md:w-[40px] md:h-[40px]"
+                  className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
