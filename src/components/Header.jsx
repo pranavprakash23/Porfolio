@@ -43,22 +43,22 @@ const Header = () => {
             <div>
                 <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
                     <li>
-                        <Link to="/home" smooth={true} offset={50} duration={500}
+                        <Link to="/home" smooth="true" offset={50} duration={500}
                         className="hover:text-title-color-dark">Home</Link>
                     </li>
                     <li>
-                        <Link to="/about" smooth={true} offset={50} duration={500}
+                        <Link to="/about" smooth="true" offset={50} duration={500}
                         className="hover:text-title-color-dark">About</Link>
                     </li>
                     <li>
-                        <Link to="/skills" smooth={true} offset={50} duration={500}
+                        <Link to="/skills" smooth="true" offset={50} duration={500}
                         className="hover:text-title-color-dark">Skills</Link>
                     </li>
                     <li>
-                        <Link to="portfolio" smooth={true} offset={50} duration={500}className="hover:text-title-color-dark">Portfolio</Link>
+                        <Link to="portfolio" smooth="true" offset={50} duration={500}className="hover:text-title-color-dark">Portfolio</Link>
                     </li>
                     <li>
-                        <Link to="/contact" smooth={true} offset={50} duration={500}
+                        <Link to="/contact" smooth="true" offset={50} duration={500}
                         className="hover:text-title-color-dark cursor-pointer">Contact</Link>
                     </li>
                 </ul>
@@ -77,24 +77,24 @@ const Header = () => {
                 
                 <ul className="space-y-8 mt-24 text-center ">
                     <li>
-                        <Link to="home" onClick={closeNav} smooth={true} offset={50} duration={500} className="hover:text-title-color-dark flex flex-col justify-center items-center gap-2">
+                        <Link to="home" onClick={closeNav} smooth="true" offset={50} duration={500} className="hover:text-title-color-dark flex flex-col justify-center items-center gap-2">
                         <RiHome5Line />
                         Home</Link>
                     </li>
                     <li>
-                        <Link to="about" onClick={closeNav}  smooth={true} offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
+                        <Link to="about" onClick={closeNav} smooth="true" offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
                         <RiUser3Line />About</Link>
                     </li>
                     <li>
-                        <Link to="skills" onClick={closeNav}  smooth={true} offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
+                        <Link to="skills" onClick={closeNav} smooth="true" offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
                         <RiPresentationLine />Skills</Link>
                     </li>
                     <li>
-                        <Link to="portfolio" onClick={closeNav}  smooth={true} offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
+                        <Link to="portfolio" onClick={closeNav} smooth="true" offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
                         <RiSlideshowLine />Portfolio</Link>
                     </li>
                     <li>
-                        <Link to="contact" onClick={closeNav}  smooth={true} offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
+                        <Link to="contact" onClick={closeNav}  smooth="true" offset={50} duration={500} className="hover:text-title-color-dark  flex flex-col justify-center items-center gap-2">
                         <RiContactsLine />Contact</Link>
                     </li>
                 </ul>

@@ -11,14 +11,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
 
   return (
-    <>
+    <Router>
       <Header/>
       <Home />
       <About />
       <Skills />
       <Contact />
       <Footer/>
-    </>
+    </Router>
   )
 }
 
