@@ -3,7 +3,7 @@ import { RiFileList3Line, RiAwardLine } from "react-icons/ri";
 
 const About = () => {
   return (
-    <div className='h-screen mt-8 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
+    <div className='h-screen mb-28 md:mb-4 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-4xl font-medium text-title-color'>About Me</h1>
             <p className='text-sm'>My Introduction</p>
