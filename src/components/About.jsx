@@ -5,7 +5,7 @@ import CV from "../assets/Pranav_Prakash_SDE.pdf";
 const About = () => {
   return (
     <div className='h-screen mb-28 md:mb-4 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center gap-2'>
             <h1 className='text-4xl font-medium text-title-color'>About Me</h1>
             <p className='text-sm text-text-color'>My Introduction</p>
         </div>
