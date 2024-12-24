@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { RiArrowRightLine, RiMailCheckLine, RiTwitterXLine, RiLinkedinLine, RiGithubLine } from "react-icons/ri";
-import { Link } from 'react-router-dom';
 
 const Contact = () => {
     
