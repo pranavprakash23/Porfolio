@@ -4,7 +4,7 @@ import { RiArrowRightLine, RiMailCheckLine, RiTwitterXLine, RiLinkedinLine, RiGi
 const Contact = () => {
     
   return (
-    <div className='h-full w-full mb-28 md:mb-4 mt-32 md:mt-4 px-4 md:px-12  flex flex-col justify-center items-center'>
+    <div className='h-screen w-full mb-28 md:mb-4 mt-32 md:mt-4 px-4 md:px-12  flex flex-col justify-center items-center'>
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-4xl font-medium text-title-color'>Contact</h1>
             <p className='text-sm'>Get in touch</p>
@@ -64,19 +64,19 @@ const Contact = () => {
 
                 <form className='flex flex-col gap-4 w-full'>
                     <div className='relative'>
-                        <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color z-10 rounded-lg'>Name</label>
+                        <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color rounded-lg'>Name</label>
                         <input type="text" name="name" placeholder='Your Name'
                         className='w-full h-full border-2 border-black/[.1] text-text-color rounded-xl px-6 py-4 z-1 focus:outline focus:outline-0 focus:bg-body-color'/>
                     </div>
 
                     <div className='relative'>
-                        <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color z-10 rounded-lg'>Mail</label>
+                        <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color rounded-lg'>Mail</label>
                         <input type="email" name="email" placeholder='Your Email ID'
                         className='w-full h-full border-2 border-black/[.1] text-text-color rounded-xl px-6 py-4 z-1 focus:outline focus:outline-0 bg-none'/>
                     </div>
 
                     <div className='relative'>
-                        <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color z-10 rounded-lg'>Message</label>
+                        <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color rounded-lg'>Message</label>
                         <textarea name="message" id="" cols="30" placeholder='Your message'
                         className='h-40 w-full border-2 border-black/[.1] text-text-color rounded-xl px-6 py-4 z-1 focus:outline focus:outline-0'></textarea>
                     </div>
@@ -102,11 +102,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
-
-
         </div>
-
-
     </div>
   )
 }
