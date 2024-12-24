@@ -15,8 +15,8 @@ const Home = () => {
 
                 <div className='md:hidden mt-16 flex flex-col justify-start items-center gap-y-12'>
                   <div className='flex flex-row items-center justify-start gap-x-12'>
-                    <Social/>
                     <div className='bg-profile-pic w-[180px] h-[180px] bg-cover bg-left-bottom animate-profile_animate rounded-full  shadow-profile-pic'></div>
+                    <Social/>
                   </div>
                   <Data className="text-center"/>
                 </div>
