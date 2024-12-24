@@ -10,14 +10,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='flex flex-col'>
+    <>
       <Header/>
       <Home/>
       <About/>
       <Skills/>
       <Contact/>
       <Footer/>
-    </div>
+    </>
   )
 }
 

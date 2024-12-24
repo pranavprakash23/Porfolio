@@ -4,7 +4,7 @@ import { RiArrowRightLine, RiMailCheckLine, RiTwitterXLine, RiLinkedinLine, RiGi
 const Contact = () => {
     
   return (
-    <div className='h-full w-full mb-28 md:mb-4 mt-32 md:mt-4 px-4 md:px-12  flex flex-col justify-center items-center'>
+    <div className='h-full w-full mt-32 md:mt-4 px-4 md:px-12  flex flex-col justify-center items-center'>
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-4xl font-medium text-title-color'>Contact</h1>
             <p className='text-sm'>Get in touch</p>
