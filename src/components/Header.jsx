@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 import {motion} from "framer-motion";
 import { RiHome5Line , RiContactsLine, RiUser3Line, RiSlideshowLine, RiPresentationLine} from "react-icons/ri";
@@ -43,23 +43,23 @@ const Header = () => {
             <div>
                 <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
                     <li>
-                        <Link to="home" smooth={true} offset={50} duration={500}
+                        <Link to="/home" smooth={true} offset={50} duration={500}
                         className="hover:text-title-color-dark">Home</Link>
                     </li>
                     <li>
-                        <Link to="about" smooth={true} offset={50} duration={500}
+                        <Link to="/about" smooth={true} offset={50} duration={500}
                         className="hover:text-title-color-dark">About</Link>
                     </li>
                     <li>
-                        <Link to="skills" smooth={true} offset={50} duration={500}
+                        <Link to="/skills" smooth={true} offset={50} duration={500}
                         className="hover:text-title-color-dark">Skills</Link>
                     </li>
                     <li>
                         <Link to="portfolio" smooth={true} offset={50} duration={500}className="hover:text-title-color-dark">Portfolio</Link>
                     </li>
                     <li>
-                        <Link to="contact" smooth={true} offset={50} duration={500}
-                        className="hover:text-title-color-dark">Contact</Link>
+                        <Link to="/contact" smooth={true} offset={50} duration={500}
+                        className="hover:text-title-color-dark cursor-pointer">Contact</Link>
                     </li>
                 </ul>
             </div>

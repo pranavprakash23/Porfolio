@@ -4,18 +4,19 @@ import Home from './components/Home'
 import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Header/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Contact/>
+      <Home />
+      <About />
+      <Skills />
+      <Contact />
       <Footer/>
     </>
   )

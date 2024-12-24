@@ -1,10 +1,11 @@
 import React from 'react';
 import { RiArrowDownLine } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 const ScrollDown = () => {
   return (
     <div className='ml-52 hidden md:inline-block'>
-        <a href="#" className='flex items-center gap-2 '>
+        <Link to="/about" className='flex items-center gap-2 '>
             <svg
                     width="32px"
                     height="32px"
@@ -43,7 +44,7 @@ const ScrollDown = () => {
                 </svg>
             <span className='text-title-color font-medium mt-4'>Scroll Down</span>
             <RiArrowDownLine className='text-lg mt-4'/>
-        </a>
+        </Link>
     </div>
   )
 }
