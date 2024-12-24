@@ -1,33 +1,65 @@
 import React, { useRef } from 'react';
-import { RiArrowRightLine, RiMailCheckLine } from "react-icons/ri";
+import { RiArrowRightLine, RiMailCheckLine, RiTwitterXLine, RiLinkedinLine, RiGithubLine } from "react-icons/ri";
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     
   return (
-    <div className='h-screen w-full mt-32 md:mt-4 px-4 md:px-12  flex flex-col justify-center items-center'>
+    <div className='h-screen w-full mb-28 md:mb-4 mt-32 md:mt-4 px-4 md:px-12  flex flex-col justify-center items-center'>
         <div className='flex flex-col justify-center items-center'>
             <h1 className='text-4xl font-medium text-title-color'>Contact</h1>
             <p className='text-sm'>Get in touch</p>
         </div>
 
-        <div className='flex flex-col md:flex-row mt-20 mx-auto gap-28 md:gap-16 justify-center items-center w-full'>
+        <div className='flex flex-col md:flex-row mt-20 mx-auto gap-28 md:gap-16 justify-center items-center md:items-start w-full '>
 
             <div className='flex flex-col gap-4 md:gap-8 justify-center items-center p-4 md:p-6'>
             
                 <h1 className='text-xl font-medium text-text-color'>Talk to me</h1>
 
-                <div className='bg-container-color rounded-2xl w-[300px] h-[200px] flex flex-col gap-1 justify-center items-center'>
-                    <RiMailCheckLine size={28} className='text-title-color'/>
-                    <p className='text-title-color'>Email</p>
-                    <p className='text-xs text-text-color'>pranavprakash2023@gmail.com</p>
-                    <div className='flex flex-row gap-2 items-center mt-6'>
-                        <p className='text-sm text-text-color'>Write me</p>
-                        <RiArrowRightLine className='hover:text-title-color-dark'/>
+                <div className='flex flex-col md:flex-row gap-4'>
+                    <div className='flex flex-col gap-4 md:gap-8'>
+                        <div className='bg-container-color rounded-2xl w-[250px] h-[150px] flex flex-col gap-1 justify-center items-center'>
+                            <RiMailCheckLine size={28} className='text-title-color'/>
+                            <p className='text-title-color'>Email</p>
+                            <p className='text-xs text-text-color'>pranavprakash2023@gmail.com</p>
+                            <div className='flex flex-row gap-2 items-center mt-6'>
+                                <p className='text-sm text-text-color'>Write me</p>
+                                <RiArrowRightLine className='hover:text-title-color-dark'/>
+                            </div>
+                        </div>
+
+                        <a href="https://x.com/pranav_prksh">
+                            <div className='bg-container-color rounded-2xl w-[250px] h-[150px] flex flex-col gap-1 justify-center items-center'>
+                                
+                                <RiTwitterXLine size={28} className='text-title-color'/>
+                                <p className='text-title-color'>X.com</p>
+                                <p className='text-xs text-text-color'>@pranav_prksh</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div className='flex flex-col gap-4 md:gap-8'>
+                        <a href="https://www.linkedin.com/in/pranavprakash-sde/">
+                            <div className='bg-container-color rounded-2xl w-[250px] h-[150px] flex flex-col gap-1 justify-center items-center'>
+                                <RiLinkedinLine size={28} className='text-title-color'/>
+                                <p className='text-title-color'>LinkedIn</p>
+                                <p className='text-xs text-text-color'>@pranav_prksh</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/pranavprakash23">
+                            <div className='bg-container-color rounded-2xl w-[250px] h-[150px] flex flex-col gap-1 justify-center items-center'>
+                                <RiGithubLine size={28} className='text-title-color'/>
+                                <p className='text-title-color'>Github</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                
             </div>
 
-            <div className='flex flex-col gap-4 md:gap-8 justify-center items-center p-4 md:p-6 rounded-xl w-[200px] sm:w-[300px] h-[250px] md:w-[450px] md:h-[360px]'>
+            <div className='flex flex-col gap-4 md:gap-8 justify-start items-center p-4 md:p-6 rounded-xl w-[200px] sm:w-[300px] h-[250px] md:w-[450px] md:h-[360px]'>
             
                 <h1 className='text-xl font-medium text-text-color'>Write me your project</h1>
 
