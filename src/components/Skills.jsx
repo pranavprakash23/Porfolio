@@ -10,7 +10,7 @@ const Skills = () => {
 
         <div className='flex flex-col md:flex-row mt-20 mx-auto gap-8 md:gap-16 justify-center items-center w-full'>
 
-            <div className='flex flex-col gap-4 md:gap-8 justify-center items-center p-4 md:p-8 bg-container-color rounded-2xl w-[200px] h-[300px] md:w-[450px] md:h-[360px]'>
+            <div className='flex flex-col gap-4 md:gap-8 justify-center items-center p-4 md:p-8 bg-container-color rounded-2xl w-[200px] sm:w-[300px] h-[300px] md:w-[450px] md:h-[360px]'>
                    <p className='text-sm md:text-lg'>Frontend Developer</p>
                    <div className='flex flex-row justify-center items-center text-text-color w-full h-full px-4 sm:px-0'>
                         <div className='grid grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 gap-x-4 md:gap-x-8 lg:gap-x-20 gap-y-6 justify-items-start text-title-color w-full'>
@@ -48,10 +48,10 @@ const Skills = () => {
                     </div>     
             </div>
 
-            <div className='flex flex-col gap-12 justify-center items-center p-4 md:p-8 bg-container-color rounded-2xl  w-[200px] h-[300px] md:w-[450px] md:h-[360px]'>
+            <div className='flex flex-col gap-4 md:gap-8 lg:gap-12 justify-center items-center p-4 md:p-8 bg-container-color rounded-2xl w-[200px] sm:w-[300px] h-[300px] md:w-[450px] md:h-[360px]'>
                    <p className='text-sm md:text-lg'>Backend Developer</p>
                    <div className='flex flex-row justify-center items-center text-text-color w-full h-full px-4 sm:px-0'>
-                        <div className='grid grod-col-4 sm:grid-cols-2 sm:grid-rows-2 gap-x-4 md:gap-x-8 lg:gap-x-20 gap-y-2 sm:gap-y-6 justify-items-start text-title-color'>
+                        <div className='grid grod-col-4 sm:grid-cols-2 sm:grid-rows-2 gap-x-4 md:gap-x-8 lg:gap-x-20 gap-y-2 sm:gap-y-6 justify-items-start text-title-color w-full'>
 
                             <div className='flex flex-row gap-4 justify-center items-center'>
                                 <p><RiCheckboxCircleFill  size={14}/></p>
