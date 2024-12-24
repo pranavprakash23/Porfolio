@@ -32,14 +32,14 @@ export default {
           '50%': { borderRadius: '50% 60% 70% 60% / 50% 60% 30% 40%' },
           '100%': { borderRadius: '60% 40% 50% 70% / 60% 50% 60% 70%' }
         },
-        wheel:{
+        scroll:{
           '0%': { transform: 'translateY(0)' },
           '100%': { transform: 'translateY(14px)' },
         }
       },
       animation: {
         'profile_animate': 'profile_animate 12s ease-in-out infinite 1s',
-        'wheel':'scroll 2s ease infinite',
+        'scroll':'scroll 2s ease infinite',
       }
     },
   },
