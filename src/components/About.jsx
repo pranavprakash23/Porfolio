@@ -1,5 +1,6 @@
 import React from 'react';
 import { RiFileList3Line, RiAwardLine } from "react-icons/ri";
+import CV from "../assets/Pranav_Prakash_SDE.pdf";
 
 const About = () => {
   return (
@@ -23,9 +24,12 @@ const About = () => {
               </div>
               <p className='text-base font-sm w-[300px] md:w-[450px] text-text-color'>Experienced Full Stack Developer with 3.5 years of expertise in building dynamic, scalable web applications using
               modern frameworks like React, Angular JS, and Spring.</p>
-              <button className='w-max p-4 bg-title-color rounded-2xl flex flex-row items-center gap-4 text-container-color'>
-                Download Resume <RiFileList3Line size={22}/>
-              </button>
+              
+              <a href={CV}>
+                <button className='w-max p-4 bg-title-color rounded-2xl flex flex-row items-center gap-4 text-container-color'>
+                  Download Resume <RiFileList3Line size={22}/>
+                </button>
+              </a>
           </div>
         </div>
     </div>
