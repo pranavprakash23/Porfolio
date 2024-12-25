@@ -22,10 +22,10 @@ const Contact = () => {
                             <RiMailCheckLine size={28} className='text-title-color'/>
                             <p className='text-title-color'>Email</p>
                             <p className='text-xs text-text-color'>pranavprakash2023@gmail.com</p>
-                            <div className='flex flex-row gap-2 items-center mt-6'>
+                            {/* <div className='flex flex-row gap-2 items-center mt-6'>
                                 <p className='text-sm text-text-color'>Write me</p>
                                 <RiArrowRightLine className='hover:text-title-color-dark'/>
-                            </div>
+                            </div> */}
                         </div>
 
                         <a href="https://x.com/pranav_prksh">
