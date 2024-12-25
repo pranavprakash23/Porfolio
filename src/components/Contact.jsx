@@ -43,7 +43,7 @@ const Contact = () => {
                             <div className='bg-container-color rounded-2xl w-[250px] h-[150px] flex flex-col gap-1 justify-center items-center'>
                                 <RiLinkedinLine size={28} className='text-title-color'/>
                                 <p className='text-title-color'>LinkedIn</p>
-                                <p className='text-xs text-text-color'>@pranav_prksh</p>
+                                <p className='text-xs text-text-color'>/pranavprakash-sde</p>
                             </div>
                         </a>
 
@@ -51,6 +51,7 @@ const Contact = () => {
                             <div className='bg-container-color rounded-2xl w-[250px] h-[150px] flex flex-col gap-1 justify-center items-center'>
                                 <RiGithubLine size={28} className='text-title-color'/>
                                 <p className='text-title-color'>Github</p>
+                                <p className='text-xs text-text-color'>/pranavprakash23</p>
                             </div>
                         </a>
                     </div>
@@ -58,7 +59,7 @@ const Contact = () => {
                 
             </div>
 
-            <div className='flex flex-col gap-4 md:gap-8 justify-start items-center p-4 md:p-6 rounded-xl w-[250px] sm:w-[300px] h-[250px] md:w-[450px] md:h-[360px]'>
+            {/* <div className='flex flex-col gap-4 md:gap-8 justify-start items-center p-4 md:p-6 rounded-xl w-[250px] sm:w-[300px] h-[250px] md:w-[450px] md:h-[360px]'>
             
                 <h1 className='text-xl font-medium text-text-color'>Write me your project</h1>
 
@@ -101,7 +102,7 @@ const Contact = () => {
                                 </svg>
                     </button>
                 </form>
-            </div>
+            </div> */}
         </div>
     </div>
   )
