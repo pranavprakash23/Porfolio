@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Data = () => {
   return (
@@ -58,7 +58,7 @@ const Data = () => {
         </h1>
         <h3 className="text-base md:text-xl pl-4 font-normal mb-4 before:content-['-----'] text-title-color"> Full-Stack Developer</h3>
         <p className='text-base md:text-xl max-w-[350px] md:max-w-[500px] mb-16'>I am passionate fullstack developer with over 3.5 years of experience.</p>
-        <Link to="/contact" className='flex flex-row justify-center items-center bg-title-color text-container-color rounded-md text-sm md:font-base px-2 md:px-4 py-1 md:py-2 w-max h-max gap-2'>Say Hello
+        <Link to="contact" spy={true} smooth={true} offset={-120} duration={500}  className='flex flex-row justify-center items-center bg-title-color text-container-color rounded-md text-sm md:font-base px-2 md:px-4 py-1 md:py-2 w-max h-max gap-2 cursor-pointer'>Say Hello
         <svg
                   className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]"
                   xmlns="http://www.w3.org/2000/svg"

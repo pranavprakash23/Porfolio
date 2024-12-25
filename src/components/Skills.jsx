@@ -3,9 +3,9 @@ import { RiCheckboxCircleFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
-    <div className='h-screen mb-28 md:mb-4 mt-32 md:mt-4 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
+    <div id="skills" className='h-screen mb-28 md:mb-4 mt-32 md:mt-4 px-4 md:px-12 w-full flex flex-col justify-center items-center'>
         <div className='flex flex-col justify-center items-center'>
-            <h1 className='text-4xl font-medium text-title-color'>Skills</h1>
+            <h1 className='text-2xl md:text-4xl font-medium text-title-color'>Skills</h1>
         </div>
 
         <div className='flex flex-col md:flex-row mt-20 mx-auto gap-8 md:gap-16 justify-center items-center w-full'>

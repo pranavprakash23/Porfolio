@@ -3,9 +3,9 @@ import { RiGraduationCapLine, RiBriefcase2Line } from "react-icons/ri";
 
 const Qualification = () => {
   return (
-    <div className='h-full w-full mb-28 md:mb-4 px-4 md:px-12 flex flex-col justify-center items-center mt-32 md:mt-4'>
+    <div id="experience" className='h-full w-full mb-28 md:mb-4 px-4 md:px-12 flex flex-col justify-center items-center mt-32 md:mt-4'>
         <div className='flex flex-col justify-center items-center gap-2'>
-            <h1 className='text-4xl font-medium text-title-color'>Experience  & Qualification</h1>
+            <h1 className='text-2xl md:text-4xl text-center font-medium text-title-color'>Experience  & Qualification</h1>
             <p className='text-sm text-text-color'>My Personal Journey</p>
         </div>
 

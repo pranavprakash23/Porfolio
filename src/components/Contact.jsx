@@ -4,10 +4,10 @@ import { RiArrowRightLine, RiMailCheckLine, RiTwitterXLine, RiLinkedinLine, RiGi
 const Contact = () => {
     
   return (
-    <div className='h-full w-full mt-32 md:mt-40 px-4 md:px-12  flex flex-col justify-center items-center'>
+    <div id="contact" className='h-full w-full mt-32 md:mt-40 px-4 md:px-12  flex flex-col justify-center items-center'>
         <div className='flex flex-col justify-center items-center gap-2'>
-            <h1 className='text-4xl font-medium text-title-color'>Contact</h1>
-            <p className='text-sm'>Get in touch</p>
+            <h1 className='text-2xl md:text-4xl font-medium text-title-color'>Contact</h1>
+            <p className='text-sm text-text-color'>Get in touch</p>
         </div>
 
         <div className='flex flex-col md:flex-row mt-20 mx-auto gap-28 md:gap-16 justify-center items-center md:items-start w-full '>
@@ -58,24 +58,24 @@ const Contact = () => {
                 
             </div>
 
-            <div className='flex flex-col gap-4 md:gap-8 justify-start items-center p-4 md:p-6 rounded-xl w-[200px] sm:w-[300px] h-[250px] md:w-[450px] md:h-[360px]'>
+            <div className='flex flex-col gap-4 md:gap-8 justify-start items-center p-4 md:p-6 rounded-xl w-[250px] sm:w-[300px] h-[250px] md:w-[450px] md:h-[360px]'>
             
                 <h1 className='text-xl font-medium text-text-color'>Write me your project</h1>
 
                 <form className='flex flex-col gap-4 w-full'>
-                    <div className='relative'>
+                    <div className='md:relative'>
                         <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color rounded-lg'>Name</label>
                         <input type="text" name="name" placeholder='Your Name'
                         className='w-full h-full border-2 border-black/[.1] text-text-color rounded-xl px-6 py-4 z-1 focus:outline focus:outline-0 focus:bg-body-color'/>
                     </div>
 
-                    <div className='relative'>
+                    <div className='md:relative'>
                         <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color rounded-lg'>Mail</label>
                         <input type="email" name="email" placeholder='Your Email ID'
                         className='w-full h-full border-2 border-black/[.1] text-text-color rounded-xl px-6 py-4 z-1 focus:outline focus:outline-0 bg-none'/>
                     </div>
 
-                    <div className='relative'>
+                    <div className='md:relative'>
                         <label htmlFor="" className='absolute -top-3 left-5 text-sm p-1 bg-body-color rounded-lg'>Message</label>
                         <textarea name="message" id="" cols="30" placeholder='Your message'
                         className='h-40 w-full border-2 border-black/[.1] text-text-color rounded-xl px-6 py-4 z-1 focus:outline focus:outline-0'></textarea>

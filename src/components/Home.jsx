@@ -5,7 +5,7 @@ import ScrollDown from './ScrollDown';
 
 const Home = () => {
   return (
-    <div className='mt-24 px-4 md:px-12 w-full h-screen'>
+    <div id="home" className='mt-24 px-4 md:px-12 w-full h-screen'>
         <div className='grid max-w-[1300px] m-auto px-4 md:px-12 h-full gap-20 flex flex-cols w-full'>
                 <div className='hidden md:grid md:grid-cols-12 pt-20 gap-x-24 items-center'>
                     <Social/>
