@@ -1,11 +1,11 @@
 import React from 'react';
 import { RiArrowDownLine } from "react-icons/ri";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const ScrollDown = () => {
   return (
-    <div className='ml-52 hidden md:inline-block'>
-        <Link to="/about" className='flex items-center gap-2 '>
+    <div className='ml-52 hidden md:inline-block cursor-pointer'>
+        <Link to="about"spy={true} smooth={true} offset={0} duration={500}  className='flex items-center gap-2 '>
             <svg
                     width="32px"
                     height="32px"
