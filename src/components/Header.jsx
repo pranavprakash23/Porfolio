@@ -39,7 +39,7 @@ const Header = () => {
     <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-100 bg-container-color">
         <div className="max-w-[1300px] mx-auto flex justify-between text-xl items-center px-12 h-20">
 
-            <a href="#" className="font-medium text-title-color">PP</a>
+            <Link to="home" spy={true} smooth={true} offset={0} duration={500}className="font-medium text-title-color cursor-pointer">PP</Link>
 
             <div>
                 <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
