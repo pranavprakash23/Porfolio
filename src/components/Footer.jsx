@@ -23,8 +23,8 @@ const Footer = () => {
        
        <div className='flex flex-col justify-center items-center gap-2'>
 
-          <h1 className='text-base font-medium text-title-color'>No &#169; copyright issues</h1>
-          <p className='text-sm text-text-color'>Feel free to use.</p>
+          <h1 className='text-base font-medium text-text-color'>&#169; 2025, Pranav Prakash. All rights reserved.</h1>
+          {/* <p className='text-sm text-text-color'>Feel free to use.</p> */}
         </div>
     </div>
   )
