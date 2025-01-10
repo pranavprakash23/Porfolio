@@ -23,7 +23,7 @@ const About = () => {
                 </div>
               </div>
               <p className='text-base font-sm w-[300px] md:w-[450px] text-text-color'>Experienced Full Stack Developer with 3.5 years of expertise in building dynamic, scalable web applications using
-              modern frameworks like React, Angular JS, and Spring.</p>
+              modern frameworks like React JS, Angular JS, and Spring.</p>
               
               <a href={CV}>
                 <button className='w-max p-4 bg-title-color rounded-2xl flex flex-row items-center gap-4 text-container-color'>
