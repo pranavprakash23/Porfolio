@@ -19,16 +19,16 @@ const Qualification = () => {
 
                 <div className="bg-container-color flex flex-row justify-between items-center rounded-xl p-8 w-full gap-4">
                     <div className='flex flex-col gap-4 w-full md:w-2/3'>
-                        <div className='text-title-color text-lg'>Reflexis Systems, Inc., <p className='text-text-color text-base'>----- Full-Stack Developer</p></div>
+                        <div className='text-title-color text-lg'>Reflexis Systems India Pvt. Ltd. <p className='text-text-color text-base'>----- Full-Stack Developer</p></div>
 
                         <p className='md:hidden text-title-color text-sm '>(July 2018 – Nov 2021)</p>
 
                         <div className='flex flex-col gap-2 mt-4 '>
                             <li>Designed and developed push notification systems, integrating email and mobile
                             alerts to enhance user engagement and real-time communication.</li>
-                            <li>Migrated existing legacy systems to a modern Angular Js and and Spring-based
+                            <li>Migrated existing legacy systems to a modern React JS and and Spring-based
                             architecture, improving performance and maintainability.</li>
-                            <li>Developed dynamic, responsive, and user-friendly web interfaces using React Js,
+                            <li>Developed dynamic, responsive, and user-friendly web interfaces using React JS,
                             ensuring a seamless user experience.</li>
                         </div>
                     

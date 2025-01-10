@@ -42,7 +42,7 @@ const Skills = () => {
 
                             <div className='flex flex-row gap-4 justify-center items-center'>
                                 <p><RiCheckboxCircleFill size={14}/></p>
-                                <p className='text-sm md:text-lg'>Angular Js</p>
+                                <p className='text-sm md:text-lg'>Angular JS</p>
                             </div>
                         </div>
                     </div>     
