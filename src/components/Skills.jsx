@@ -42,7 +42,7 @@ const Skills = () => {
 
                             <div className='flex flex-row gap-4 justify-center items-center'>
                                 <p><RiCheckboxCircleFill size={14}/></p>
-                                <p className='text-sm md:text-lg'>Angular JS</p>
+                                <p className='text-sm md:text-lg'>Next JS</p>
                             </div>
                         </div>
                     </div>     
@@ -70,7 +70,7 @@ const Skills = () => {
 
                             <div className='flex flex-row gap-4 justify-center items-center'>
                                 <p><RiCheckboxCircleFill  size={14}/></p>
-                                <p className='text-sm md:text-lg'>Firebase</p>
+                                <p className='text-sm md:text-lg'>Spring Boot</p>
                             </div>
                         </div>
                     </div>  

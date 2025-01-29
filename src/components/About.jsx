@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiFileList3Line, RiAwardLine } from "react-icons/ri";
-import CV from "../assets/Pranav_Prakash_SDE.pdf";
+import CV from "../assets/Pranav_Prakash_SDE_2025.pdf";
 
 const About = () => {
   return (
