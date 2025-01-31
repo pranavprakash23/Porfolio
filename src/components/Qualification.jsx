@@ -24,12 +24,9 @@ const Qualification = () => {
                         <p className='md:hidden text-title-color text-sm '>(July 2018 – Nov 2021)</p>
 
                         <div className='flex flex-col gap-2 mt-4 '>
-                            <li>Designed and developed push notification systems, integrating email and mobile
-                            alerts to enhance user engagement and real-time communication.</li>
-                            <li>Migrated existing legacy systems to a modern React JS and and Spring-based
-                            architecture, improving performance and maintainability.</li>
-                            <li>Developed dynamic, responsive, and user-friendly web interfaces using React JS,
-                            ensuring a seamless user experience.</li>
+                            <li><span className='text-text-color font-medium'>User Engagement Boost –</span> Designed and developed push notification systems(email and mobile alerts) to enhance real-time communication and user engagement. Increase in user interaction rate.</li>
+                            <li><span className='text-text-color font-medium'>System Performance Improvement –</span> Migrated legacy systems to a modern React.js and Spring-based architecture, enhancing performance and maintainability. Reduction in system response time and improved efficiency metrics.</li>
+                            <li><span className='text-text-color font-medium'>Frontend Optimization & UX Enhancement –</span> Developed dynamic, responsive,and user-friendly web interfaces using React.js, ensuring a seamless user experience. Improved page load speed and better user satisfaction scores.</li>
                         </div>
                     
                     </div>
