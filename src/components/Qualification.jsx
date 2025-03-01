@@ -19,7 +19,7 @@ const Qualification = () => {
 
                 <div className="bg-container-color flex flex-row justify-between items-center rounded-xl p-8 w-full gap-4">
                     <div className='flex flex-col gap-4 w-full md:w-2/3'>
-                        <div className='text-title-color text-lg'>Reflexis Systems India Pvt. Ltd. <p className='text-text-color text-base'>----- Full-Stack Developer</p></div>
+                        <div className='text-title-color text-lg'>Reflexis Systems India Pvt. Ltd. <p className='text-text-color text-base'>----- Software Engineer I</p></div>
 
                         <p className='md:hidden text-title-color text-sm '>(July 2018 – Nov 2021)</p>
 
@@ -31,6 +31,20 @@ const Qualification = () => {
                     
                     </div>
                     <p className='text-title-color text-sm hidden md:inline-block'>(July 2018 – Nov 2021)</p>
+                </div>
+
+                <div className="bg-container-color flex flex-row justify-between items-center rounded-xl p-8 w-full gap-4">
+                    <div className='flex flex-col gap-4 w-full md:w-2/3'>
+                        <div className='text-title-color text-lg'>Planned Career Break<p className='text-text-color text-base'></p></div>
+
+                        <p className='md:hidden text-title-color text-sm '>(Jan 2022 – Dec 2024)</p>
+
+                        <div className='flex flex-col gap-2 mt-4 '>
+                            <li>Took a dedicated career break to focus on UPSC CSE and MBA entrance exam preparation. While I ultimately chose not to pursue this path, the experience enhanced my adaptability, perseverance, and structured problem-solving skills. Now, I am excited to return to software engineering, leveraging both my technical expertise and the valuable insights gained during this period.</li>                            
+                        </div>
+                    
+                    </div>
+                    <p className='text-title-color text-sm hidden md:inline-block'>(Jan 2022 – Dec 2024)</p>
                 </div>
             </div>
 
